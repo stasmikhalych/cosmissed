@@ -1,4 +1,4 @@
-module github.com/blockpane/cosmissed
+module github.com/stasmikhalych/cosmissed
 
 go 1.16
 
