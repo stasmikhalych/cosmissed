@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	missed "github.com/blockpane/cosmissed"
+	missed "github.com/stasmikhalych/cosmissed"
 	"github.com/gorilla/websocket"
 	"github.com/textileio/go-threads/broadcast"
 	"log"
