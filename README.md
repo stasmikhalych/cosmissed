@@ -22,7 +22,7 @@ Network Graph:
 * It may be traffic intensive (especially when building the cache,) and should be run against a local, private server.
 * The error `not a valid HistValidatorsResp structure` at startup likely means that the state has been pruned for that block height
   on your API server and there is not enough history to build the full cache. Try a lower `-n` value (normally the upper limit is 9,000).
-* All assets are bundled using [go:embed](https://pkg.go.dev/embed), so a simple `go install github.com/blockpane/cosmissed` should get everything needed to run.
+* All assets are bundled using [go:embed](https://pkg.go.dev/embed), so a simple `go install https://github.com/stasmikhalych/cosmissed` should get everything needed to run.
 
 Usage:
 
