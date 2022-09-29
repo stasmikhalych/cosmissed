@@ -10,4 +10,4 @@ require (
 	github.com/tendermint/tendermint v0.34.12
 	github.com/textileio/go-threads v1.0.2
 )
-replace github.com/blockpane/cosmissed => github.com/stasmikhalych/cosmissed@latest
+
